@@ -1,0 +1,6 @@
+pymongo
+pandas
+geopy
+seaborn
+matplotlib
+numpy
