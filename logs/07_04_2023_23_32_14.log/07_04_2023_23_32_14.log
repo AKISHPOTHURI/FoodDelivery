@@ -1,0 +1,12 @@
+[ 2023-07-04 23:32:14,831 ] 27 root - INFO - Data Ingestion methods Starts
+[ 2023-07-04 23:32:16,200 ] 30 root - INFO - Dataset read as pandas Dataframe
+[ 2023-07-04 23:32:16,600 ] 34 root - INFO - Train test split
+[ 2023-07-04 23:32:16,983 ] 40 root - INFO - Ingestion of Data is completed
+[ 2023-07-04 23:32:17,116 ] 17 root - INFO - Data Cleaning as started
+[ 2023-07-04 23:32:19,781 ] 38 root - INFO - data cleaning ended
+[ 2023-07-04 23:32:19,784 ] 17 root - INFO - Data Cleaning as started
+[ 2023-07-04 23:32:20,883 ] 38 root - INFO - data cleaning ended
+[ 2023-07-04 23:32:20,891 ] 46 root - INFO - Distance calculation started
+[ 2023-07-04 23:32:25,583 ] 74 root - INFO - distance calculation ended
+[ 2023-07-04 23:32:25,583 ] 46 root - INFO - Distance calculation started
+[ 2023-07-04 23:32:27,616 ] 74 root - INFO - distance calculation ended

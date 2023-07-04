@@ -1,0 +1,28 @@
+[ 2023-07-04 23:25:33,877 ] 27 root - INFO - Data Ingestion methods Starts
+[ 2023-07-04 23:25:34,902 ] 30 root - INFO - Dataset read as pandas Dataframe
+[ 2023-07-04 23:25:35,272 ] 34 root - INFO - Train test split
+[ 2023-07-04 23:25:35,662 ] 40 root - INFO - Ingestion of Data is completed
+[ 2023-07-04 23:25:35,802 ] 17 root - INFO - Data Cleaning as started
+[ 2023-07-04 23:25:38,438 ] 17 root - INFO - Data Cleaning as started
+[ 2023-07-04 23:25:38,438 ] 40 root - INFO - Exception in data cleaning
+[ 2023-07-04 23:25:38,438 ] 67 root - INFO - None
+[ 2023-07-04 23:25:38,438 ] 45 root - INFO - Distance calculation started
+[ 2023-07-04 23:25:38,453 ] 75 root - INFO - Exception raised in distance calculation
+[ 2023-07-04 23:25:38,453 ] 17 root - INFO - Data Cleaning as started
+[ 2023-07-04 23:25:39,565 ] 45 root - INFO - Distance calculation started
+[ 2023-07-04 23:25:41,504 ] 75 root - INFO -        Delivery_person_Age  Delivery_person_Ratings  Restaurant_latitude  ...  Time_taken (min)  day_quaters   distance
+0                     32.0                      4.1            25.450329  ...                33    afternoon   7.490187
+1                     32.0                      4.9            12.326356  ...                28      morning   1.554499
+2                     23.0                      4.5             0.000000  ...                22        night  11.007735
+3                     22.0                      4.5            26.956431  ...                25        night   4.468412
+4                     29.0                      4.9            12.308500  ...                35        night  20.206901
+...                    ...                      ...                  ...  ...               ...          ...        ...
+13671                 30.0                      4.6            22.569367  ...                24        night        NaN
+13672                 34.0                      4.6            11.020910  ...                19        night        NaN
+13673                 37.0                      4.9            19.178321  ...                38        night        NaN
+13674                 38.0                      4.0            23.359407  ...                36    afternoon        NaN
+13675                 37.0                      4.8            26.902328  ...                29        night        NaN
+
+[12787 rows x 17 columns]
+[ 2023-07-04 23:25:41,519 ] 76 root - INFO - Read train and test data completed
+[ 2023-07-04 23:25:41,519 ] 118 root - INFO - Exception occured in the initiate_datatransformation

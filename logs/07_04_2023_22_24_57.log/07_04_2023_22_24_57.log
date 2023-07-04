@@ -1,0 +1,13 @@
+[ 2023-07-04 22:24:57,064 ] 27 root - INFO - Data Ingestion methods Starts
+[ 2023-07-04 22:24:58,092 ] 30 root - INFO - Dataset read as pandas Dataframe
+[ 2023-07-04 22:24:58,416 ] 34 root - INFO - Train test split
+[ 2023-07-04 22:24:58,755 ] 40 root - INFO - Ingestion of Data is completed
+[ 2023-07-04 22:24:58,881 ] 65 root - INFO - Index(['ID', 'Delivery_person_ID', 'Delivery_person_Age',
+       'Delivery_person_Ratings', 'Restaurant_latitude',
+       'Restaurant_longitude', 'Delivery_location_latitude',
+       'Delivery_location_longitude', 'Order_Date', 'Time_Orderd',
+       'Time_Order_picked', 'Weather_conditions', 'Road_traffic_density',
+       'Vehicle_condition', 'Type_of_order', 'Type_of_vehicle',
+       'multiple_deliveries', 'Festival', 'City', 'Time_taken (min)'],
+      dtype='object')
+[ 2023-07-04 22:24:58,896 ] 120 root - INFO - Exception occured in the initiate_datatransformation
