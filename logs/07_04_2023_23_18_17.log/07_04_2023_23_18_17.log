@@ -1,6 +1,0 @@
-[ 2023-07-04 23:18:17,376 ] 27 root - INFO - Data Ingestion methods Starts
-[ 2023-07-04 23:18:18,935 ] 30 root - INFO - Dataset read as pandas Dataframe
-[ 2023-07-04 23:18:19,299 ] 34 root - INFO - Train test split
-[ 2023-07-04 23:18:19,641 ] 40 root - INFO - Ingestion of Data is completed
-[ 2023-07-04 23:18:19,771 ] 17 root - INFO - Data Cleaning as started
-[ 2023-07-04 23:18:19,771 ] 72 root - INFO - artifacts\train.csv
