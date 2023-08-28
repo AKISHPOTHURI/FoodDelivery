@@ -1,0 +1,121 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="Delivery_person_Age">Delivery person Age:</label>
+        <input type="text" id="Delivery_person_Age" name="Delivery_person_Age" placeholder="Enter Delivery_person_Age value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Delivery_person_Ratings">Delivery_person_Ratings:</label>
+        <input type="text" id="Delivery_person_Ratings" name="Delivery_person_Ratings" placeholder="Enter Delivery_person_Ratings value (float)">
+    </div>
+
+    <div class="form-group">  
+        <label for="Restaurant_latitude">Restaurant_latitude:</label>
+        <input type="text" id="Restaurant_latitude" name="Restaurant_latitude" placeholder="Enter Restaurant_latitude value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="Restaurant_longitude">Restaurant_longitude:</label>
+        <input type="text" id="Restaurant_longitude" name="Restaurant_longitude" placeholder="Enter Restaurant_longitude value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Delivery_location_latitude">Delivery_location_latitude:</label>
+        <input type="text" id="Delivery_location_latitude" name="Delivery_location_latitude" placeholder="Enter Delivery_location_latitude value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Delivery_location_longitude">Delivery_location_longitude:</label>
+        <input type="text" id="Delivery_location_longitude" name="Delivery_location_longitude" placeholder="Enter Delivery_location_longitude value (float)">
+    </div>         
+  
+<div class="form-group">
+  <label for="Weather_conditions">Weather_conditions:</label>
+  <select id="Weather_conditions" name="Weather_conditions">
+    <option value=1.0>Sunny</option>
+    <option value=2.0>Stormy</option>
+    <option value=3.0>Sandstorms</option>
+    <option value=4.0>Windy</option>
+    <option value=5.0>Fog</option>
+    <option value=6.0>Cloudy</option>
+  </select>
+</div>
+  
+<div class="form-group">
+  <label for="Road_traffic_density">Road_traffic_density:</label>
+  <select id="Road_traffic_density" name="Road_traffic_density">
+    <option value=1.0>Jam</option>
+    <option value=2.0>High</option>
+    <option value=3.0>Medium</option>
+    <option value=4.0>Low</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label for="Vehicle_condition">Vehicle_condition:</label>
+  <input type="text" id="Vehicle_condition" name="Vehicle_condition" placeholder="Enter Vehicle_condition (float)">
+</div>
+
+<div class="form-group">
+    <label for="Type_of_order">Type_of_order:</label>
+    <select id="Type_of_order" name="Type_of_order">
+      <option value=1.0>Snack</option>
+      <option value=2.0>Meal</option>
+      <option value=3.0>Drinks</option>
+      <option value=4.0>Buffet</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="Type_of_vehicle">Type_of_vehicle:</label>
+    <select id="Type_of_vehicle" name="Type_of_vehicle">
+      <option value=1.0>motorcycle</option>
+      <option value=2.0>scooter</option>
+      <option value=3.0>electric_scooter</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="multiple_deliveries">multiple_deliveries:</label>
+    <input type="text" id="multiple_deliveries" name="multiple_deliveries" placeholder="Enter multiple_deliveries (float)">
+</div>
+
+<div class="form-group">
+    <label for="Festival">Festival:</label>
+    <select id="Festival" name="Festival">
+      <option value=1.0>Yes</option>
+      <option value=2.0>No</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="Type_of_City">Type of City:</label>
+    <select id="Type_of_City" name="Type_of_City">
+      <option value=1.0>Metropolitian</option>
+      <option value=2.0>Urban</option>
+      <option value=3.0>Semi-Urban</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="day_quaters">day_quaters:</label>
+    <select id="day_quaters" name="day_quaters">
+      <option value=1.0>night</option>
+      <option value=2.0>afternoon</option>
+      <option value=3.0>morning</option>
+      <option value=4.0>late morning</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="distance">distance:</label>
+    <input type="text" id="distance" name="distance" placeholder="Enter distance (float)">
+</div>
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

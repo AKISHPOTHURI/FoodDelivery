@@ -29,7 +29,19 @@ class DataTransformation:
             #numerical_cols
             numerical_cols = ['Delivery_person_Age', 'Delivery_person_Ratings', 'Restaurant_latitude','Restaurant_longitude', 
                               'Delivery_location_latitude','Delivery_location_longitude', 'Vehicle_condition','multiple_deliveries']
-            #Nuerical Pipeline
+            
+
+            # Define the custom ranking for each ordinal variable
+            city_map = ['Metropolitian','Urban','Semi-Urban']
+            Festival_map = ['Yes','No']
+            Road_traffic_density_map = ['Jam','High','Medium','Low']
+            Type_of_order_map = ['Snack','Meal','Drinks','Buffet']
+            Type_of_vehicle_map = ['motorcycle','scooter','electric_scooter']
+            Weather_conditions_map = ["Sunny","Stormy","Sandstorms","Windy","Fog","Cloudy"]
+            day_quaters_map = ['night','afternoon','morning','late morning']
+
+
+            #Numerical Pipeline
             num_pipeline = Pipeline(
                 steps=[
                 ('imputer', SimpleImputer(strategy='mean')),
@@ -41,7 +53,8 @@ class DataTransformation:
             cat_pipeline = Pipeline(
                 steps=[
                 ('imputer', SimpleImputer(strategy='most_frequent')),
-                ('OrdinalEncoder', OrdinalEncoder()),
+                ('OrdinalEncoder', OrdinalEncoder(categories=[Weather_conditions_map,Road_traffic_density_map,Type_of_order_map,Type_of_vehicle_map,Festival_map,
+                                                              city_map,day_quaters_map])),
                 ('scaler', StandardScaler())
                 ]
             )

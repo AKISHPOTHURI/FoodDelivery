@@ -1,0 +1,28 @@
+[ 2023-08-06 02:48:18,659 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+[ 2023-08-06 02:48:18,659 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-08-06 02:48:18,661 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:50:27,724 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:50:40,652 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:50:44,037 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:51:01,104 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:51:15,242 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:51:27,051 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:51:37,843 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:51:50,704 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:52:04,686 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:52:15,423 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:52:23,070 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:52:29,635 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:52:35,092 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:52:41,601 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:52:46,096 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:52:51,601 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:52:56,036 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:53:01,583 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:53:07,085 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:53:09,430 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:53:12,823 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-06 02:53:16,207 ] 187 werkzeug - INFO -  * Restarting with stat

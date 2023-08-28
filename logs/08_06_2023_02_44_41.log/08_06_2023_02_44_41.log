@@ -1,0 +1,14 @@
+[ 2023-08-06 02:44:41,972 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-06 02:44:41,976 ] 187 werkzeug - INFO -  * Debugger PIN: 123-355-655
+[ 2023-08-06 02:44:57,627 ] 187 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 02:44:57] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-08-06 02:44:57,637 ] 187 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 02:44:57] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-06 02:44:57,876 ] 187 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 02:44:57] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-08-06 02:44:58,192 ] 187 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 02:44:58] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-06 02:44:58,440 ] 187 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 02:44:58] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-06 02:45:02,228 ] 187 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 02:45:02] "GET /predict HTTP/1.1" 200 -
+[ 2023-08-06 02:45:28,715 ] 187 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 02:45:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-08-06 02:45:28,728 ] 187 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 02:45:28] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-06 02:45:28,968 ] 187 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 02:45:28] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-08-06 02:45:29,294 ] 187 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 02:45:29] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-06 02:45:29,541 ] 187 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 02:45:29] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-06 02:46:31,788 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\akish\\Ineuron\\FoodDelivery\\app.py', reloading
