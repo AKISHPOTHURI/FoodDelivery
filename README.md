@@ -51,7 +51,7 @@ git clone https://github.com/AKISHPOTHURI/FoodDelivery.git
 ### Step 2- Create a conda environment after opening the repository
 
 ```bash
-conda create -n sensor python=3.7.6 -y
+conda create -n delivery python=3.7.6 -y
 ```
 
 ```bash
