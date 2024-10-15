@@ -55,7 +55,7 @@ conda create -n sensor python=3.7.6 -y
 ```
 
 ```bash
-conda activate sensor
+conda activate delivery
 ```
 
 ### Step 3 - Install the requirements
@@ -73,7 +73,7 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
 export AWS_DEFAULT_REGION=<AWS_DEFAULT_REGION>
 
-export MONGODB_URL="mongodb+srv://<username>:<password>@ineuron-ai-projects.7eh1w4s.mongodb.net/?retryWrites=true&w=majority"
+export MONGODB_URL="mongodb+srv://<username>:<password>@delivry-projects.7eh1w4s.mongodb.net/?retryWrites=true&w=majority"
 
 ```
 
@@ -104,7 +104,7 @@ http://localhost:8080/predict
 2. Build the Docker image
 
 ```
-docker build -t sensor . 
+docker build -t delivery . 
 
 ```
 
